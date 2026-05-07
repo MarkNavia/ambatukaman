@@ -72,5 +72,4 @@ window.clearCart = function() {
   renderCart();
 };
 
-// LOAD SAVED CART ON START
 renderCart();
