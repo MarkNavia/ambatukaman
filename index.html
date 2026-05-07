@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Motorcycle Parts Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🏍️MarkNavia Shop</h1>
+  <input type="text" id="search" placeholder="Search parts...">
+</header>
+
+<div class="container">
+
+  <div id="product-parent" class="products"></div>
+
+  <div class="cart">
+    <h2>🛒 Cart (<span id="cart-count">0</span>)</h2>
+    <div id="cart-items"></div>
+    <h3>Total: ₱<span id="cart-total">0</span></h3>
+    <button onclick="clearCart()">Clear Cart</button>
+  </div>
+
+</div>
+
+<script src="data.js"></script>
+<script src="cart.js"></script>
+<script src="products.js"></script>
+
+</body>
+</html>
